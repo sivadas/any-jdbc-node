@@ -1,0 +1,38 @@
+{
+  "name": "any-jdbc-node",
+  "version": "0.0.1",
+  "description": "JDBC wrapper for any DataBase",
+  "author": "Siva Das <sivasankardas@gmail.com>",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/.bin/mocha"
+  },
+  "engines": {
+    "node": ">=6.10.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/siva-das/any-jdbc-node.git"
+  },
+  "dependencies": {
+    "any-db": "^2.2.0",
+    "any-db-jdbc": "^1.0.0",
+    "assert": "^1.4.1",
+    "should": "^13.1.3",
+    "underscore": "^1.8.3"
+  },
+  "devDependencies": {
+    "async": "*",
+    "mocha": "^4.0.1"
+  },
+  "keywords": [
+    "jdbc",
+    "db",
+    "any-db",
+    "database",
+    "wrapper",
+    "node"
+  ],
+  "license": "",
+  "readmeFilename": "README.md"
+}
